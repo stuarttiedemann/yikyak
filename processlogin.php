@@ -13,6 +13,7 @@
 			$hash = $row['password'];
 			// print_r('The hash is: '.$hash);
 			$uid = $row['uid'];
+			$name = $row['name'];
 			$passwordVerify = password_verify($password, $hash);
 		}
 	}catch(MeekroDBException $e){
@@ -24,6 +25,7 @@
 		// Password is good
 		$_SESSION['username'] = $username; // $_SESSION is a cookie that is around as long as the browser is open.
 		$_SESSION['uid'] = $uid;
+		$_SESSION['name'] = $name;
 		header('Location: index.php');
 		print "You are Logged In";
 		exit;

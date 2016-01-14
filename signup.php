@@ -7,13 +7,13 @@
 <html>
 <head>
 	<?php
-	include('head.php');
+	include('inc/head.php');
 	?>
 
 </head>
 <body>
 	<?php
-		include('nav.php');
+		include('inc/nav.php');
 	?>
 	<main>
 		<div class="row main">
@@ -37,7 +37,7 @@
 		</div>
 	</main>
 	<?php
-		include('footer.php');
+		include('inc/footer.php');
 	?>
 </body>
 </html>

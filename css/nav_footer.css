@@ -16,19 +16,23 @@ header button {
 header h1 {
   color: #d68335;
 }
+/* line 20, ../compass/sass/nav_footer.scss */
+header .welcome {
+  padding-top: 5px;
+}
 
-/* line 21, ../compass/sass/nav_footer.scss */
+/* line 24, ../compass/sass/nav_footer.scss */
 footer {
   background: #313840;
   color: #84a1a6;
   height: 100px;
 }
-/* line 25, ../compass/sass/nav_footer.scss */
+/* line 28, ../compass/sass/nav_footer.scss */
 footer .footer-holder {
   padding-top: 30px;
   padding-bottom: 10px;
 }
-/* line 28, ../compass/sass/nav_footer.scss */
+/* line 31, ../compass/sass/nav_footer.scss */
 footer .footer-holder a {
   color: #84a1a6;
   padding: 3px 5px;

@@ -7,20 +7,20 @@
 <html>
 <head>
 	<?php
-	include('head.php');
+	include('inc/head.php');
 	?>
 
 </head>
 <body>
 	<?php
-		include('nav.php');
+		include('inc/nav.php');
 	?>
 	<main>
 		<div class="row main">
 			<div class="col-xs-6 col-xs-offset-3">
 				<form class="well" method="post" action="processlogin.php">
 					<?php
-						if(error){
+						if($error){
 							print "<span class='text-center'>User is not in the database.  Please try again.</span>";
 						}
 					?>
@@ -37,7 +37,7 @@
 		</div>
 	</main>
 	<?php
-		include('footer.php');
+		include('inc/footer.php');
 	?>
 </body>
 </html>

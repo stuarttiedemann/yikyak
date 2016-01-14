@@ -17,4 +17,56 @@ main .main{
 		}
 	}
 }
+.main-callout{
+	position: relative;
+	height: 500px;
+	background-image: url("../images/hippo.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	h1{
+		position: absolute;
+		top:20%;
+		left:45%;
+		font-size: 4em;
+		color: $bgdk;
+		text-shadow: 2px 2px #ccc;
+	}
+}
+#post-holder{
+	position: relative;
+	width: 100%;
+	a{
+		margin-left:75.5%;
+		button{
+			margin-bottom: 2%;
+		}
+
+	}
+	.posts{
+		width: 80%;
+		margin: auto;
+		height: 200px;
+		background: #ccc;
+		margin-bottom:3%;
+		padding: 2%;
+		.content{
+			width: 80%;
+			float: left;
+		}
+		.votes{
+			width: 20%;
+			float: right;
+			a{
+				margin:0;
+			}
+			h3{
+				margin-left: 45%;
+			}
+		}
+		.time-stamp{
+			width: 80%;
+			float: left;
+		}
+	}
+}
 
