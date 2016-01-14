@@ -1,0 +1,35 @@
+/* line 6, ../compass/sass/nav_footer.scss */
+header {
+  background: #313840;
+  color: #84a1a6;
+  height: 100px;
+}
+/* line 10, ../compass/sass/nav_footer.scss */
+header button {
+  background: #84a1a6;
+  color: #fff3e1;
+  margin-top: 9%;
+  margin-left: 4%;
+  width: 80px;
+}
+/* line 17, ../compass/sass/nav_footer.scss */
+header h1 {
+  color: #d68335;
+}
+
+/* line 21, ../compass/sass/nav_footer.scss */
+footer {
+  background: #313840;
+  color: #84a1a6;
+  height: 100px;
+}
+/* line 25, ../compass/sass/nav_footer.scss */
+footer .footer-holder {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+/* line 28, ../compass/sass/nav_footer.scss */
+footer .footer-holder a {
+  color: #84a1a6;
+  padding: 3px 5px;
+}

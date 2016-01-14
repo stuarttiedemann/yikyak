@@ -1,8 +1,20 @@
 @import 'compass/css3';
 @import 'vars';
 @import 'base';
+$bgdk: #d68335;
+$bglt: #f1b464;
 
-*{
-	background: blue;
+main .main{
+	padding:3%;
+	background: $bglt;
+	.well{
+		background: $bgdk;
+		border:1px solid #000;
+		.btn{
+			background: $bglt;
+			border: none;
+			color: #000;
+		}
+	}
 }
 

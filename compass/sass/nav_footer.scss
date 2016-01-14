@@ -1,0 +1,33 @@
+$navbg: #313840;
+$navfnt: #84a1a6;
+$navlt: #fff3e1;
+$navdk: #d68335;
+
+header{
+	background: $navbg;
+	color: $navfnt;
+	height: 100px;
+	button{
+		background: $navfnt;
+		color: $navlt;
+		margin-top:9%;
+		margin-left: 4%;
+		width: 80px;
+	}
+	h1{
+		color: $navdk;
+	}
+}
+footer{
+	background: $navbg;
+	color: $navfnt;
+	height: 100px;
+	.footer-holder{
+		padding-top:30px;
+		padding-bottom: 10px;
+		a{
+			color: $navfnt;
+			padding: 3px 5px;
+		}
+	}
+}
