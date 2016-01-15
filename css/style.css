@@ -39,14 +39,11 @@ main .main .well .btn {
   width: 100%;
 }
 /* line 38, ../compass/sass/style.scss */
-#post-holder a {
-  margin-left: 75.5%;
-}
-/* line 40, ../compass/sass/style.scss */
-#post-holder a button {
+#post-holder button {
+  margin-left: 68.5%;
   margin-bottom: 2%;
 }
-/* line 45, ../compass/sass/style.scss */
+/* line 42, ../compass/sass/style.scss */
 #post-holder .posts {
   width: 80%;
   margin: auto;
@@ -55,25 +52,25 @@ main .main .well .btn {
   margin-bottom: 3%;
   padding: 2%;
 }
-/* line 52, ../compass/sass/style.scss */
+/* line 49, ../compass/sass/style.scss */
 #post-holder .posts .content {
   width: 80%;
   float: left;
 }
-/* line 56, ../compass/sass/style.scss */
+/* line 53, ../compass/sass/style.scss */
 #post-holder .posts .votes {
   width: 20%;
   float: right;
 }
-/* line 59, ../compass/sass/style.scss */
+/* line 56, ../compass/sass/style.scss */
 #post-holder .posts .votes a {
   margin: 0;
 }
-/* line 62, ../compass/sass/style.scss */
+/* line 59, ../compass/sass/style.scss */
 #post-holder .posts .votes h3 {
   margin-left: 45%;
 }
-/* line 66, ../compass/sass/style.scss */
+/* line 63, ../compass/sass/style.scss */
 #post-holder .posts .time-stamp {
   width: 80%;
   float: left;
